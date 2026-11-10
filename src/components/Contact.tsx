@@ -142,7 +142,7 @@ export default function Contact() {
                     <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-500">
                       {method.title}
                     </p>
-                    <p className="mt-1.5 break-words text-sm font-semibold text-slate-900">
+                    <p className="mt-1.5 wrap-break-word text-sm font-semibold text-slate-900">
                       {method.value}
                     </p>
                   </div>

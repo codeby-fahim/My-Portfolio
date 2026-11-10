@@ -141,6 +141,7 @@ export default function Navbar() {
 
         <Link
           href={siteConfig.resumePath}
+          target="_blank"
           onClick={() => setIsMenuOpen(false)}
           className="hidden items-center gap-2 rounded-xl bg-emerald-500 px-4 py-2.5 text-sm font-semibold text-slate-950 transition-colors duration-200 hover:bg-emerald-400 sm:inline-flex"
         >

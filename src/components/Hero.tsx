@@ -80,6 +80,7 @@ export default function Hero() {
 
             <Link
               href={siteConfig.resumePath}
+              target="_blank"
               className="inline-flex items-center justify-center gap-2.5 rounded-xl border border-white/20 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white transition-colors duration-200 hover:border-emerald-400/50 hover:bg-white/10"
             >
               <FaFileAlt aria-hidden="true" className="text-xs" />
@@ -132,14 +133,14 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md">
           <div
             aria-hidden="true"
-            className="absolute -inset-3 rounded-[2rem] border border-emerald-400/20 sm:-inset-4"
+            className="absolute -inset-3 rounded-4xl border border-emerald-400/20 sm:-inset-4"
           />
           <div
             aria-hidden="true"
-            className="absolute -bottom-4 -right-4 h-full w-full rounded-[2rem] bg-emerald-500/10 sm:-bottom-5 sm:-right-5"
+            className="absolute -bottom-4 -right-4 h-full w-full rounded-4xl bg-emerald-500/10 sm:-bottom-5 sm:-right-5"
           />
 
-          <div className="relative aspect-4/5 overflow-hidden rounded-[2rem] border border-white/10 bg-slate-800 shadow-2xl shadow-slate-950/50">
+          <div className="relative aspect-4/5 overflow-hidden rounded-4xl border border-white/10 bg-slate-800 shadow-2xl shadow-slate-950/50">
             <Image
               src="/image/Portfolio2.png"
               alt={`Portrait of ${siteConfig.name}`}

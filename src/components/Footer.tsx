@@ -102,6 +102,7 @@ export default function Footer() {
               <li>
                 <Link
                   href={siteConfig.resumePath}
+                  target="_blank"
                   className="inline-flex items-center gap-2.5 text-sm text-slate-300 transition-colors hover:text-emerald-400"
                 >
                   <FaFileAlt aria-hidden="true" className="text-emerald-400" />

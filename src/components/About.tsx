@@ -104,6 +104,7 @@ export default function About() {
 
               <Link
                 href={siteConfig.resumePath}
+                target="_blank"
                 className="group flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-5 transition-colors hover:border-emerald-300 hover:bg-emerald-50"
               >
                 <div>

@@ -21,7 +21,7 @@ export default function ProjectCard({
       <Link
         href={`/projects/${project.slug}`}
         aria-label={`View ${project.name} case study`}
-        className="relative block aspect-[2/1] overflow-hidden bg-slate-100"
+        className="relative block aspect-2/1 overflow-hidden bg-slate-100"
       >
         <Image
           src={project.image}
@@ -38,7 +38,7 @@ export default function ProjectCard({
 
         <span
           aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          className="absolute inset-0 bg-linear-to-t from-slate-950/60 via-slate-950/10 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
 
         <span

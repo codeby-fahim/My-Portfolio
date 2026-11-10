@@ -11,7 +11,7 @@ export const siteConfig = {
   whatsapp: "https://wa.me/8801775233949",
   available: true,
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  resumePath: "/resume",
+  resumePath: "/MD-Rakibul-Islam-Fahim-Resume.pdf",
   description:
     "Md. Rakibul Islam Fahim is a full-stack web developer based in Dhaka, Bangladesh, building modern, responsive web applications with Next.js, React, TypeScript, Node.js, and MongoDB.",
   tagline:
